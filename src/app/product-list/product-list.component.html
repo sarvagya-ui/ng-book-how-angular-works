@@ -1,0 +1,5 @@
+<ul>
+  <li class="no-bullets" *ngFor="let product of products">
+    <app-product-row [product]="product" (click)="productClicked(product)"></app-product-row>
+  </li>
+</ul>
